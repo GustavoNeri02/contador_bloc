@@ -9,9 +9,9 @@ Nele temos:
 
 * StreamController : Controlador de fluxo, capaz de ler, adicionar, transformar e verificar erros dos DADOS
 
-* Observable/Stream : Saída do fluxo
+* Observable/Stream : Saída do fluxo/dados
 
-* Sink: Entrada de Dados
+* Sink: Entrada de fluxo/dados
 
 * Operations: Modificar, gerenciar e verificar dados, ex: distinct()
 
