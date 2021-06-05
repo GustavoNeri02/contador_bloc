@@ -4,12 +4,18 @@ Famoso app contador, agora utilizando BLoC com RXDart e o bloc_pattern
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+BloC foi criado para separar regras de negócio da interface de usuário.
+Nele temos: 
 
-A few resources to get you started if this is your first Flutter project:
+* StreamController : Controlador de fluxo, capaz de ler, adicionar, transformar e verificar erros dos DADOS
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Observable/Stream : Saída do fluxo
+
+* Sink: Entrada de Dados
+
+* Operations: Modificar, gerenciar e verificar dados, ex: distinct()
+
+* StreamBuilder:  Construtor baseado na stream, recebendo snapshots(dados atuais do fluxo)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
