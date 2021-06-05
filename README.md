@@ -16,6 +16,13 @@ Nele temos:
 * Operations: Modificar, gerenciar e verificar dados, ex: distinct()
 
 * StreamBuilder:  Construtor baseado na stream, recebendo snapshots(dados atuais do fluxo)
+  
+        StreamBuilder<"tipo do objeto">(
+            stream: "saída do luxo/dados" ,
+            builder: (context, snapshot){
+                return Text(snapshot.data);
+            }
+        )
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
